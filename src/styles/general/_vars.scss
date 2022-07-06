@@ -1,0 +1,44 @@
+@import '~@/styles/general/media';
+
+:root {
+  // - - - - - FONTS - - - - - //
+  --Roboto           : 'Roboto', sans-serif;
+  --Nokora           : 'Nokora', sans-serif;
+
+  // - - - - - COLORS - - - - - //
+  --grey-darken-5    : #666B73;
+  --grey-darken-3    : #77798C;
+  --grey-darken-1    : #8F9197;
+  --grey-darken      : #9E9FA3;
+  --grey-lighten-1   : #B3B6BC;
+  --grey-lighten-3   : #D2D2DA;
+  --grey-lighten-5   : #EDEEEF;
+
+  --red              : #D75555;
+
+  --blue-darken-3    : #005BBB;
+  --blue-darken-1    : #4565D7;
+  --blue             : #5D7AE1;
+  --blue-lighten-5   : #B0B8D6;
+
+  --white            : #FFFFFF;
+
+  --black-lighten-3  : #393D44;
+  --black-lighten-6  : #535559;
+
+  // - - - - - SIZES - - - - - //
+  --sidebar-width           : 300px;
+  --header-height           : 64px;
+  --nav-panel-height        : 55px;
+  --scrollbar-width         : 6px;
+  --main-container-width    : 380px;
+  --main-container-height   : 100vh;
+
+
+  @include media('max', 'sm') {
+    --main-container-width: 360px
+  }
+}
+
+$mainBlueColor        : #002A4A; // before #083555
+$mainLightRedColor    : #DF6D6D;

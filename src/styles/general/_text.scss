@@ -1,0 +1,71 @@
+.title {
+  &-sm {
+    font-size: 26px;
+  }
+
+  &-xs {
+    font-size: 24px;
+  }
+}
+
+.text {
+  &-xxl {
+    font-size: 22px;
+  }
+
+  &-xl {
+    font-size: 20px;
+  }
+
+  &-lg {
+    font-size: 18px;
+  }
+
+  &-md {
+    font-size: 16px;
+  }
+
+  &-sm {
+    font-size: 12px;
+  }
+
+  &-xs {
+    font-size: 10px;
+  }
+
+  &-center {
+    text-align: center;
+  }
+
+  &-normal {
+    font-weight: 400;
+  }
+
+  &-medium {
+    font-weight: 500;
+  }
+
+  &-semibold {
+    font-weight: 600;
+  }
+
+  &-bold {
+    font-weight: 700;
+  }
+
+  &-italic {
+    font-style: italic;
+  }
+
+  &-underline {
+    text-decoration: underline;
+  }
+
+  &-underline-none {
+    text-decoration: none;
+  }
+
+  &-capitalize {
+    text-transform: capitalize;
+  }
+}

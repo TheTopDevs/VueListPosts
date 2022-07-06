@@ -1,0 +1,33 @@
+.color {
+  &-grey-darken-1 {
+    color: var(--grey-darken-1);
+  }
+
+  &-blue-darken-1 {
+    color: var(--blue-darken-1);
+  }
+
+  &-blue-lighten-5 {
+    color: var(--blue-lighten-5);
+  }
+
+  &-grey-darken {
+    color: var(--grey-darken);
+  }
+
+  &-grey-darken-1 {
+    color: var(--grey-darken-1);
+  }
+
+  &-grey-darken-3 {
+    color: var(--grey-darken-3);
+  }
+
+  &-grey-darken-5 {
+    color: var(--grey-darken-5);
+  }
+
+  &-black-lighten-6 {
+    color: var(--black-lighten-6);
+  }
+}
